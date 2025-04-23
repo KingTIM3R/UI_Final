@@ -74,12 +74,12 @@ end)
 
 ### 4. **Dropdown**
 ```lua
-Tab1:Dropdown("Dropdown",{"yo","sus","pro"},function(value)
+Tab1:Dropdown("Dropdown",{"Sub","To","GrandLegacy(grand_lostsoulz0 on yt)"},function(value)
     print(value)
 end)
 ```
 - **Label**: `"Dropdown"`.
-- **Options**: `{"yo", "sus", "pro"}`.
+- **Options**: `{"Sub", "To", "GrandLegacy(grand_lostsoulz0 on yt)"}`.
 - **Callback**: Prints the selected option to the console.
 
 ---
