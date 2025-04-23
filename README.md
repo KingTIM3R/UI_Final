@@ -84,20 +84,7 @@ end)
 
 ---
 
-### 5. **Textbox**
-```lua
-Tab1:Textbox("Textbox","",true,function(value)
-    print(value)
-end)
-```
-- **Label**: `"Textbox"`.
-- **Initial Text**: `""` (empty).
-- **State**: `true` (text input enabled).
-- **Callback**: Prints the entered text to the console.
-
----
-
-### 6. **Separator**
+### 5. **Separator**
 ```lua
 Tab1:Seperator("Seperator")
 ```
@@ -105,7 +92,7 @@ Adds a visual separator labeled `"Seperator"`. Used for grouping UI elements.
 
 ---
 
-### 7. **Line**
+### 6. **Line**
 ```lua
 Tab1:Line()
 ```
@@ -129,7 +116,6 @@ The script creates a UI similar to the following structure:
   - Toggle: Switches between `true` and `false` states.
   - Slider: Adjusts between a range of `1` to `100`.
   - Dropdown: Allows selection from predefined options.
-  - Textbox: Accepts user input.
   - Separator and Line: Improves visual organization.
 
 ---
@@ -141,5 +127,3 @@ The script creates a UI similar to the following structure:
 
 ---
 
-## License
-This script is for educational purposes and requires compliance with Roblox's Terms of Service.
