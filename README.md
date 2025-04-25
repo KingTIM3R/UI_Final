@@ -8,7 +8,7 @@ This script is designed to create a customizable and interactive User Interface 
 
 ### 1. **Loading the Library**
 ```lua
-local GrandHubX = loadstring(game:HttpGet("https://raw.githubusercontent.com/KingTIM3R/Ui_Final/refs/heads/main/source.lua", true))()
+local GrandHubX = loadstring(game:HttpGet("https://raw.githubusercontent.com/KingTIM3R/UI_Final/refs/heads/main/GrandHubXUI.lua", true))()
 ```
 This line fetches and executes the `GrandHubX` UI library from the specified URL. It initializes the core functionality needed to build the UI.
 
